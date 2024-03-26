@@ -1,6 +1,5 @@
 import json
 from datetime import timedelta
-
 import os
 
 # Utilisation du chemin absolu
