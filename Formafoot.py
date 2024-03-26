@@ -1,9 +1,11 @@
 import json
 from datetime import timedelta
 
-# Ouvrir le fichier JSON en mode lecture
-with open("/Users/philippehim/Library/Mobile Documents/com~apple~CloudDocs/IA SCHOOL/04_DEV/Projet DEV GEMA/PythonDev/FORMAFOOT/ressources/api object/api.json", "r") as f:
-    data = json.load(f)  # Charger les données JSON dans un objet Python
+import os
+
+# Utilisation du chemin absolu
+with open("ressources/api object/api.json", 'r') as f:
+    data = json.load(f)
 
 # Définition de la classe Module
 class Module:
